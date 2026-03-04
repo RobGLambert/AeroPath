@@ -1,0 +1,21 @@
+name: aeropath
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - matplotlib
+  - numpy
+  - pandas
+  - pyyaml
+  - scipy
+  - tqdm
+  - shapely
+  - joblib
+  - numba
+  - mypy
+  - pre-commit
+  - pytest
+  - ruff
+  - mkdocs
+  - mkdocs-material

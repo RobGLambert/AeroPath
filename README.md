@@ -172,7 +172,7 @@ Monte Carlo sampling propagates trajectory uncertainty.
 
 Control objective:
 ```math
-min || x - x_goal ||
+\min \lVert x - x_{goal} \rVert
 ```
 
 ### Performance Metrics
@@ -202,7 +202,7 @@ Monte Carlo rollout used for decision selection.
 
 Objective:
 ```math
-min E[J] + λ Var(J)
+\min \mathbb{E}[J] + λ Var(J)
 ```
 
 Where:
@@ -349,8 +349,6 @@ This project demonstrates:
 - Clean software architecture  
 - Technical documentation ability  
 
-This is not a toy simulator.
-
 It is a structured exploration of autonomous decision-making under environmental uncertainty.
 
 ---
@@ -361,3 +359,10 @@ It is a structured exploration of autonomous decision-making under environmental
 Applied Mathematics & Physics  
 Meteorology  
 Halifax, Nova Scotia  
+
+## Acknowledgements
+Portions of the initial documentation structure were generated with the assistance of an AI Language model. 
+
+The Project concept, system design, research direction, and implementation are the work of the author.
+
+The AI-assisted text served only as a starting point for documentation and will be reviewed, modified, and updated during development.
